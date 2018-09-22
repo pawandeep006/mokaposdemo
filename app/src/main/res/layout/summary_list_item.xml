@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    tools:layout_width="300dp">
+
+    <TextView
+        android:id="@+id/sub_total_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        tools:text="$500" />
+
+    <TextView
+        android:id="@+id/sub_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sub_total" />
+
+
+    <TextView
+        android:id="@+id/total_discount_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/sub_total_amount"
+        android:layout_marginTop="5dp"
+        tools:text="$500" />
+
+
+    <TextView
+        android:id="@+id/total_discount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sub_total"
+        android:layout_marginTop="5dp"
+        android:text="@string/discount" />
+
+
+</RelativeLayout>
